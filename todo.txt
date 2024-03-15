@@ -1,0 +1,10 @@
+Reminders of things that need doing, add more when found.
+
+Split the model file out to be seperate files.
+
+Rewrite the code to use fully custom tokeniser and use current tensorflow version 2.16.
+
+Create scraper for Dataset collection (use site Factorio Prints:https://factorioprints.com/).
+
+create more customisation and optimise model.
+

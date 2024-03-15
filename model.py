@@ -159,9 +159,9 @@ def main():
     batch_size = args.batch_size
 
     # blueprint folders. Change as needed, currently testing areas
-    # blueprints_folder = 'blueprints/Prompts' # Linux
+    blueprints_folder = 'Blueprints/Prompts' # Linux
     # blueprints_folder = r"blueprints\Prompts" # Windows Internal Drive
-    blueprints_folder = r"blueprints\Prompts" # Windows External Drive
+    # blueprints_folder = r"blueprints\Prompts" # Windows External Drive
 
     prompts, answers = load_data(blueprints_folder)
     print(f"Loaded {len(prompts)} prompts and {len(answers)} answers from {blueprints_folder}")
