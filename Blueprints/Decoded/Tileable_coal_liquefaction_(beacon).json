@@ -1,0 +1,4173 @@
+{
+    "blueprint": {
+        "icons": [
+            {
+                "signal": {
+                    "type": "item",
+                    "name": "beacon"
+                },
+                "index": 1
+            }
+        ],
+        "entities": [
+            {
+                "entity_number": 1,
+                "name": "beacon",
+                "position": {
+                    "x": 821.5,
+                    "y": -57.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 2,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 823.5,
+                    "y": -58.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 3,
+                "name": "beacon",
+                "position": {
+                    "x": 825.5,
+                    "y": -57.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 4,
+                "name": "beacon",
+                "position": {
+                    "x": 831.5,
+                    "y": -57.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 5,
+                "name": "beacon",
+                "position": {
+                    "x": 841.5,
+                    "y": -57.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 6,
+                "name": "beacon",
+                "position": {
+                    "x": 844.5,
+                    "y": -57.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 7,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 847.5,
+                    "y": -58.5
+                }
+            },
+            {
+                "entity_number": 8,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 846.5,
+                    "y": -58.5
+                }
+            },
+            {
+                "entity_number": 9,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 848.5,
+                    "y": -58.5
+                }
+            },
+            {
+                "entity_number": 10,
+                "name": "beacon",
+                "position": {
+                    "x": 850.5,
+                    "y": -57.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 11,
+                "name": "beacon",
+                "position": {
+                    "x": 853.5,
+                    "y": -57.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 12,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 823.5,
+                    "y": -56.5
+                }
+            },
+            {
+                "entity_number": 13,
+                "name": "constant-combinator",
+                "position": {
+                    "x": 823.5,
+                    "y": -57.5
+                },
+                "control_behavior": {
+                    "filters": [
+                        {
+                            "signal": {
+                                "type": "fluid",
+                                "name": "petroleum-gas"
+                            },
+                            "count": 1,
+                            "index": 1
+                        },
+                        {
+                            "signal": {
+                                "type": "virtual",
+                                "name": "signal-O"
+                            },
+                            "count": 1,
+                            "index": 2
+                        }
+                    ]
+                }
+            },
+            {
+                "entity_number": 14,
+                "name": "small-lamp",
+                "position": {
+                    "x": 834.5,
+                    "y": -56.5
+                }
+            },
+            {
+                "entity_number": 15,
+                "name": "water-well-pump",
+                "position": {
+                    "x": 836.5,
+                    "y": -56.5
+                },
+                "direction": 6,
+                "recipe": "water-well-flow"
+            },
+            {
+                "entity_number": 16,
+                "name": "pipe",
+                "position": {
+                    "x": 838.5,
+                    "y": -56.5
+                }
+            },
+            {
+                "entity_number": 17,
+                "name": "pipe",
+                "position": {
+                    "x": 839.5,
+                    "y": -56.5
+                }
+            },
+            {
+                "entity_number": 18,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 847.5,
+                    "y": -57.5
+                }
+            },
+            {
+                "entity_number": 19,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 846.5,
+                    "y": -56.5
+                }
+            },
+            {
+                "entity_number": 20,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 846.5,
+                    "y": -57.5
+                }
+            },
+            {
+                "entity_number": 21,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 847.5,
+                    "y": -56.5
+                }
+            },
+            {
+                "entity_number": 22,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 848.5,
+                    "y": -56.5
+                }
+            },
+            {
+                "entity_number": 23,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 848.5,
+                    "y": -57.5
+                }
+            },
+            {
+                "entity_number": 24,
+                "name": "beacon",
+                "position": {
+                    "x": 821.5,
+                    "y": -54.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 25,
+                "name": "substation",
+                "position": {
+                    "x": 824,
+                    "y": -55
+                },
+                "neighbours": [
+                    31,
+                    200
+                ]
+            },
+            {
+                "entity_number": 26,
+                "name": "small-lamp",
+                "position": {
+                    "x": 825.5,
+                    "y": -54.5
+                }
+            },
+            {
+                "entity_number": 27,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 829.5,
+                    "y": -55.5
+                },
+                "direction": 6
+            },
+            {
+                "entity_number": 28,
+                "name": "pipe",
+                "position": {
+                    "x": 828.5,
+                    "y": -55.5
+                }
+            },
+            {
+                "entity_number": 29,
+                "name": "pipe",
+                "position": {
+                    "x": 828.5,
+                    "y": -54.5
+                }
+            },
+            {
+                "entity_number": 30,
+                "name": "beacon",
+                "position": {
+                    "x": 831.5,
+                    "y": -54.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 31,
+                "name": "substation",
+                "position": {
+                    "x": 834,
+                    "y": -55
+                },
+                "connections": {
+                    "1": {
+                        "red": [
+                            {
+                                "entity_id": 209
+                            }
+                        ]
+                    }
+                },
+                "neighbours": [
+                    25,
+                    108,
+                    209
+                ]
+            },
+            {
+                "entity_number": 32,
+                "name": "chemical-plant",
+                "position": {
+                    "x": 836.5,
+                    "y": -53.5
+                },
+                "direction": 6,
+                "recipe": "solid-fuel-from-light-oil"
+            },
+            {
+                "entity_number": 33,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 839.5,
+                    "y": -54.5
+                }
+            },
+            {
+                "entity_number": 34,
+                "name": "pipe",
+                "position": {
+                    "x": 839.5,
+                    "y": -55.5
+                }
+            },
+            {
+                "entity_number": 35,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 838.5,
+                    "y": -55.5
+                },
+                "direction": 2
+            },
+            {
+                "entity_number": 36,
+                "name": "beacon",
+                "position": {
+                    "x": 841.5,
+                    "y": -54.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 37,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 844.5,
+                    "y": -54.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 38,
+                "name": "small-lamp",
+                "position": {
+                    "x": 845.5,
+                    "y": -54.5
+                }
+            },
+            {
+                "entity_number": 39,
+                "name": "stack-inserter",
+                "position": {
+                    "x": 847.5,
+                    "y": -54.5
+                }
+            },
+            {
+                "entity_number": 40,
+                "name": "stack-inserter",
+                "position": {
+                    "x": 846.5,
+                    "y": -54.5
+                }
+            },
+            {
+                "entity_number": 41,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": 846.5,
+                    "y": -55.5
+                },
+                "type": "output"
+            },
+            {
+                "entity_number": 42,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": 847.5,
+                    "y": -55.5
+                },
+                "type": "output"
+            },
+            {
+                "entity_number": 43,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": 848.5,
+                    "y": -55.5
+                },
+                "type": "output"
+            },
+            {
+                "entity_number": 44,
+                "name": "small-lamp",
+                "position": {
+                    "x": 849.5,
+                    "y": -54.5
+                }
+            },
+            {
+                "entity_number": 45,
+                "name": "stack-inserter",
+                "position": {
+                    "x": 848.5,
+                    "y": -54.5
+                }
+            },
+            {
+                "entity_number": 46,
+                "name": "beacon",
+                "position": {
+                    "x": 853.5,
+                    "y": -54.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 47,
+                "name": "beacon",
+                "position": {
+                    "x": 821.5,
+                    "y": -51.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 48,
+                "name": "pipe",
+                "position": {
+                    "x": 823.5,
+                    "y": -53.5
+                }
+            },
+            {
+                "entity_number": 49,
+                "name": "pipe",
+                "position": {
+                    "x": 823.5,
+                    "y": -52.5
+                }
+            },
+            {
+                "entity_number": 50,
+                "name": "pipe",
+                "position": {
+                    "x": 824.5,
+                    "y": -52.5
+                }
+            },
+            {
+                "entity_number": 51,
+                "name": "chemical-plant",
+                "position": {
+                    "x": 826.5,
+                    "y": -52.5
+                },
+                "direction": 2,
+                "recipe": "light-oil-cracking",
+                "items": {
+                    "productivity-module-3": 3
+                }
+            },
+            {
+                "entity_number": 52,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 824.5,
+                    "y": -53.5
+                },
+                "direction": 6
+            },
+            {
+                "entity_number": 53,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 828.5,
+                    "y": -52.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 54,
+                "name": "pipe",
+                "position": {
+                    "x": 829.5,
+                    "y": -53.5
+                }
+            },
+            {
+                "entity_number": 55,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 829.5,
+                    "y": -52.5
+                }
+            },
+            {
+                "entity_number": 56,
+                "name": "pipe",
+                "position": {
+                    "x": 828.5,
+                    "y": -53.5
+                }
+            },
+            {
+                "entity_number": 57,
+                "name": "beacon",
+                "position": {
+                    "x": 831.5,
+                    "y": -51.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 58,
+                "name": "pipe",
+                "position": {
+                    "x": 833.5,
+                    "y": -52.5
+                }
+            },
+            {
+                "entity_number": 59,
+                "name": "pipe",
+                "position": {
+                    "x": 834.5,
+                    "y": -52.5
+                }
+            },
+            {
+                "entity_number": 60,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 834.5,
+                    "y": -53.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 61,
+                "name": "fast-inserter",
+                "position": {
+                    "x": 838.5,
+                    "y": -53.5
+                },
+                "direction": 6
+            },
+            {
+                "entity_number": 62,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": 839.5,
+                    "y": -53.5
+                },
+                "direction": 4,
+                "type": "input"
+            },
+            {
+                "entity_number": 63,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 839.5,
+                    "y": -52.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 64,
+                "name": "beacon",
+                "position": {
+                    "x": 841.5,
+                    "y": -51.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 65,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 843.5,
+                    "y": -53.5
+                },
+                "direction": 2
+            },
+            {
+                "entity_number": 66,
+                "name": "oil-refinery",
+                "position": {
+                    "x": 847.5,
+                    "y": -51.5
+                },
+                "direction": 6,
+                "recipe": "coal-liquefaction",
+                "items": {
+                    "productivity-module-3": 3
+                }
+            },
+            {
+                "entity_number": 67,
+                "name": "pipe",
+                "position": {
+                    "x": 844.5,
+                    "y": -53.5
+                }
+            },
+            {
+                "entity_number": 68,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 844.5,
+                    "y": -52.5
+                }
+            },
+            {
+                "entity_number": 69,
+                "name": "pipe",
+                "position": {
+                    "x": 850.5,
+                    "y": -52.5
+                }
+            },
+            {
+                "entity_number": 70,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 851.5,
+                    "y": -53.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 71,
+                "name": "pipe",
+                "position": {
+                    "x": 851.5,
+                    "y": -52.5
+                }
+            },
+            {
+                "entity_number": 72,
+                "name": "beacon",
+                "position": {
+                    "x": 853.5,
+                    "y": -51.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 73,
+                "name": "pipe",
+                "position": {
+                    "x": 824.5,
+                    "y": -50.5
+                }
+            },
+            {
+                "entity_number": 74,
+                "name": "small-lamp",
+                "position": {
+                    "x": 825.5,
+                    "y": -50.5
+                }
+            },
+            {
+                "entity_number": 75,
+                "name": "pipe",
+                "position": {
+                    "x": 824.5,
+                    "y": -51.5
+                }
+            },
+            {
+                "entity_number": 76,
+                "name": "pipe",
+                "position": {
+                    "x": 828.5,
+                    "y": -51.5
+                }
+            },
+            {
+                "entity_number": 77,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 828.5,
+                    "y": -50.5
+                }
+            },
+            {
+                "entity_number": 78,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 829.5,
+                    "y": -51.5
+                },
+                "direction": 6
+            },
+            {
+                "entity_number": 79,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 829.5,
+                    "y": -50.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 80,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 833.5,
+                    "y": -51.5
+                }
+            },
+            {
+                "entity_number": 81,
+                "name": "pipe",
+                "position": {
+                    "x": 834.5,
+                    "y": -51.5
+                }
+            },
+            {
+                "entity_number": 82,
+                "name": "chemical-plant",
+                "position": {
+                    "x": 836.5,
+                    "y": -50.5
+                },
+                "direction": 2,
+                "recipe": "heavy-oil-cracking",
+                "items": {
+                    "productivity-module-3": 3
+                }
+            },
+            {
+                "entity_number": 83,
+                "name": "pipe",
+                "position": {
+                    "x": 839.5,
+                    "y": -51.5
+                }
+            },
+            {
+                "entity_number": 84,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 839.5,
+                    "y": -50.5
+                }
+            },
+            {
+                "entity_number": 85,
+                "name": "pipe",
+                "position": {
+                    "x": 838.5,
+                    "y": -51.5
+                }
+            },
+            {
+                "entity_number": 86,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 838.5,
+                    "y": -50.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 87,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 844.5,
+                    "y": -51.5
+                },
+                "direction": 2
+            },
+            {
+                "entity_number": 88,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 850.5,
+                    "y": -51.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 89,
+                "name": "pipe",
+                "position": {
+                    "x": 850.5,
+                    "y": -50.5
+                }
+            },
+            {
+                "entity_number": 90,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 851.5,
+                    "y": -51.5
+                }
+            },
+            {
+                "entity_number": 91,
+                "name": "beacon",
+                "position": {
+                    "x": 821.5,
+                    "y": -48.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 92,
+                "name": "pipe",
+                "position": {
+                    "x": 824.5,
+                    "y": -49.5
+                }
+            },
+            {
+                "entity_number": 93,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 824.5,
+                    "y": -48.5
+                }
+            },
+            {
+                "entity_number": 94,
+                "name": "chemical-plant",
+                "position": {
+                    "x": 826.5,
+                    "y": -48.5
+                },
+                "direction": 2,
+                "recipe": "light-oil-cracking",
+                "items": {
+                    "productivity-module-3": 3
+                }
+            },
+            {
+                "entity_number": 95,
+                "name": "pipe",
+                "position": {
+                    "x": 828.5,
+                    "y": -49.5
+                }
+            },
+            {
+                "entity_number": 96,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 829.5,
+                    "y": -48.5
+                }
+            },
+            {
+                "entity_number": 97,
+                "name": "pipe",
+                "position": {
+                    "x": 829.5,
+                    "y": -49.5
+                }
+            },
+            {
+                "entity_number": 98,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 828.5,
+                    "y": -48.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 99,
+                "name": "beacon",
+                "position": {
+                    "x": 831.5,
+                    "y": -48.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 100,
+                "name": "small-lamp",
+                "position": {
+                    "x": 835.5,
+                    "y": -48.5
+                }
+            },
+            {
+                "entity_number": 101,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 837.5,
+                    "y": -48.5
+                },
+                "direction": 6
+            },
+            {
+                "entity_number": 102,
+                "name": "pipe",
+                "position": {
+                    "x": 836.5,
+                    "y": -48.5
+                }
+            },
+            {
+                "entity_number": 103,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 838.5,
+                    "y": -48.5
+                }
+            },
+            {
+                "entity_number": 104,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": 839.5,
+                    "y": -48.5
+                },
+                "direction": 4,
+                "type": "output"
+            },
+            {
+                "entity_number": 105,
+                "name": "pipe",
+                "position": {
+                    "x": 838.5,
+                    "y": -49.5
+                }
+            },
+            {
+                "entity_number": 106,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 839.5,
+                    "y": -49.5
+                },
+                "direction": 6
+            },
+            {
+                "entity_number": 107,
+                "name": "beacon",
+                "position": {
+                    "x": 841.5,
+                    "y": -48.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 108,
+                "name": "substation",
+                "position": {
+                    "x": 844,
+                    "y": -48
+                },
+                "neighbours": [
+                    31,
+                    259
+                ]
+            },
+            {
+                "entity_number": 109,
+                "name": "small-lamp",
+                "position": {
+                    "x": 845.5,
+                    "y": -48.5
+                }
+            },
+            {
+                "entity_number": 110,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 844.5,
+                    "y": -49.5
+                },
+                "direction": 2
+            },
+            {
+                "entity_number": 111,
+                "name": "stack-inserter",
+                "position": {
+                    "x": 846.5,
+                    "y": -48.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 112,
+                "name": "stack-inserter",
+                "position": {
+                    "x": 847.5,
+                    "y": -48.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 113,
+                "name": "stack-inserter",
+                "position": {
+                    "x": 848.5,
+                    "y": -48.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 114,
+                "name": "small-lamp",
+                "position": {
+                    "x": 849.5,
+                    "y": -48.5
+                }
+            },
+            {
+                "entity_number": 115,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 851.5,
+                    "y": -49.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 116,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 850.5,
+                    "y": -49.5
+                }
+            },
+            {
+                "entity_number": 117,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 850.5,
+                    "y": -48.5
+                },
+                "direction": 2
+            },
+            {
+                "entity_number": 118,
+                "name": "pipe",
+                "position": {
+                    "x": 851.5,
+                    "y": -48.5
+                }
+            },
+            {
+                "entity_number": 119,
+                "name": "beacon",
+                "position": {
+                    "x": 853.5,
+                    "y": -48.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 120,
+                "name": "beacon",
+                "position": {
+                    "x": 821.5,
+                    "y": -45.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 121,
+                "name": "small-lamp",
+                "position": {
+                    "x": 825.5,
+                    "y": -46.5
+                }
+            },
+            {
+                "entity_number": 122,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 829.5,
+                    "y": -47.5
+                },
+                "direction": 6
+            },
+            {
+                "entity_number": 123,
+                "name": "pipe",
+                "position": {
+                    "x": 828.5,
+                    "y": -47.5
+                }
+            },
+            {
+                "entity_number": 124,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 829.5,
+                    "y": -46.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 125,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 828.5,
+                    "y": -46.5
+                }
+            },
+            {
+                "entity_number": 126,
+                "name": "beacon",
+                "position": {
+                    "x": 831.5,
+                    "y": -45.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 127,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 833.5,
+                    "y": -47.5
+                },
+                "direction": 2
+            },
+            {
+                "entity_number": 128,
+                "name": "boiler",
+                "position": {
+                    "x": 836.5,
+                    "y": -47
+                }
+            },
+            {
+                "entity_number": 129,
+                "name": "pipe",
+                "position": {
+                    "x": 834.5,
+                    "y": -47.5
+                }
+            },
+            {
+                "entity_number": 130,
+                "name": "pump",
+                "position": {
+                    "x": 834.5,
+                    "y": -46
+                },
+                "control_behavior": {
+                    "circuit_condition": {
+                        "first_signal": {
+                            "type": "fluid",
+                            "name": "heavy-oil"
+                        },
+                        "constant": 3000,
+                        "comparator": ">"
+                    }
+                },
+                "connections": {
+                    "1": {
+                        "red": [
+                            {
+                                "entity_id": 209
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "entity_number": 131,
+                "name": "fast-inserter",
+                "position": {
+                    "x": 838.5,
+                    "y": -47.5
+                },
+                "direction": 2
+            },
+            {
+                "entity_number": 132,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": 839.5,
+                    "y": -47.5
+                },
+                "direction": 4,
+                "type": "input"
+            },
+            {
+                "entity_number": 133,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 839.5,
+                    "y": -46.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 134,
+                "name": "pipe",
+                "position": {
+                    "x": 838.5,
+                    "y": -46.5
+                }
+            },
+            {
+                "entity_number": 135,
+                "name": "beacon",
+                "position": {
+                    "x": 841.5,
+                    "y": -45.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 136,
+                "name": "beacon",
+                "position": {
+                    "x": 844.5,
+                    "y": -45.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 137,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 847.5,
+                    "y": -46.5
+                }
+            },
+            {
+                "entity_number": 138,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": 846.5,
+                    "y": -47.5
+                },
+                "type": "input"
+            },
+            {
+                "entity_number": 139,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 846.5,
+                    "y": -46.5
+                }
+            },
+            {
+                "entity_number": 140,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": 847.5,
+                    "y": -47.5
+                },
+                "type": "input"
+            },
+            {
+                "entity_number": 141,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 848.5,
+                    "y": -46.5
+                }
+            },
+            {
+                "entity_number": 142,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": 848.5,
+                    "y": -47.5
+                },
+                "type": "input"
+            },
+            {
+                "entity_number": 143,
+                "name": "beacon",
+                "position": {
+                    "x": 850.5,
+                    "y": -45.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 144,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 851.5,
+                    "y": -47.5
+                }
+            },
+            {
+                "entity_number": 145,
+                "name": "beacon",
+                "position": {
+                    "x": 853.5,
+                    "y": -45.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 146,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 824.5,
+                    "y": -44.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 147,
+                "name": "chemical-plant",
+                "position": {
+                    "x": 826.5,
+                    "y": -44.5
+                },
+                "direction": 2,
+                "recipe": "light-oil-cracking",
+                "items": {
+                    "productivity-module-3": 3
+                }
+            },
+            {
+                "entity_number": 148,
+                "name": "pipe",
+                "position": {
+                    "x": 829.5,
+                    "y": -45.5
+                }
+            },
+            {
+                "entity_number": 149,
+                "name": "pipe",
+                "position": {
+                    "x": 828.5,
+                    "y": -45.5
+                }
+            },
+            {
+                "entity_number": 150,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 828.5,
+                    "y": -44.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 151,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 829.5,
+                    "y": -44.5
+                }
+            },
+            {
+                "entity_number": 152,
+                "name": "pipe",
+                "position": {
+                    "x": 833.5,
+                    "y": -44.5
+                }
+            },
+            {
+                "entity_number": 153,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 833.5,
+                    "y": -45.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 154,
+                "name": "chemical-plant",
+                "position": {
+                    "x": 836.5,
+                    "y": -44.5
+                },
+                "direction": 2,
+                "recipe": "heavy-oil-cracking",
+                "items": {
+                    "productivity-module-3": 3
+                }
+            },
+            {
+                "entity_number": 155,
+                "name": "pipe",
+                "position": {
+                    "x": 834.5,
+                    "y": -44.5
+                }
+            },
+            {
+                "entity_number": 156,
+                "name": "pipe",
+                "position": {
+                    "x": 838.5,
+                    "y": -45.5
+                }
+            },
+            {
+                "entity_number": 157,
+                "name": "pipe",
+                "position": {
+                    "x": 839.5,
+                    "y": -45.5
+                }
+            },
+            {
+                "entity_number": 158,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 838.5,
+                    "y": -44.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 159,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 839.5,
+                    "y": -44.5
+                }
+            },
+            {
+                "entity_number": 160,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 847.5,
+                    "y": -45.5
+                }
+            },
+            {
+                "entity_number": 161,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 846.5,
+                    "y": -45.5
+                }
+            },
+            {
+                "entity_number": 162,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 846.5,
+                    "y": -44.5
+                }
+            },
+            {
+                "entity_number": 163,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 847.5,
+                    "y": -44.5
+                }
+            },
+            {
+                "entity_number": 164,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 848.5,
+                    "y": -45.5
+                }
+            },
+            {
+                "entity_number": 165,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 848.5,
+                    "y": -44.5
+                }
+            },
+            {
+                "entity_number": 166,
+                "name": "beacon",
+                "position": {
+                    "x": 821.5,
+                    "y": -42.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 167,
+                "name": "pipe",
+                "position": {
+                    "x": 823.5,
+                    "y": -42.5
+                }
+            },
+            {
+                "entity_number": 168,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 823.5,
+                    "y": -43.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 169,
+                "name": "small-lamp",
+                "position": {
+                    "x": 825.5,
+                    "y": -42.5
+                }
+            },
+            {
+                "entity_number": 170,
+                "name": "pipe",
+                "position": {
+                    "x": 824.5,
+                    "y": -43.5
+                }
+            },
+            {
+                "entity_number": 171,
+                "name": "pipe",
+                "position": {
+                    "x": 824.5,
+                    "y": -42.5
+                }
+            },
+            {
+                "entity_number": 172,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 828.5,
+                    "y": -42.5
+                }
+            },
+            {
+                "entity_number": 173,
+                "name": "pipe",
+                "position": {
+                    "x": 828.5,
+                    "y": -43.5
+                }
+            },
+            {
+                "entity_number": 174,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 829.5,
+                    "y": -42.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 175,
+                "name": "beacon",
+                "position": {
+                    "x": 831.5,
+                    "y": -42.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 176,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 834.5,
+                    "y": -42.5
+                }
+            },
+            {
+                "entity_number": 177,
+                "name": "small-lamp",
+                "position": {
+                    "x": 835.5,
+                    "y": -42.5
+                }
+            },
+            {
+                "entity_number": 178,
+                "name": "pipe",
+                "position": {
+                    "x": 834.5,
+                    "y": -43.5
+                }
+            },
+            {
+                "entity_number": 179,
+                "name": "pipe",
+                "position": {
+                    "x": 836.5,
+                    "y": -42.5
+                }
+            },
+            {
+                "entity_number": 180,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 837.5,
+                    "y": -42.5
+                },
+                "direction": 6
+            },
+            {
+                "entity_number": 181,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 838.5,
+                    "y": -42.5
+                }
+            },
+            {
+                "entity_number": 182,
+                "name": "pipe",
+                "position": {
+                    "x": 838.5,
+                    "y": -43.5
+                }
+            },
+            {
+                "entity_number": 183,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": 839.5,
+                    "y": -42.5
+                },
+                "direction": 4,
+                "type": "output"
+            },
+            {
+                "entity_number": 184,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 839.5,
+                    "y": -43.5
+                },
+                "direction": 6
+            },
+            {
+                "entity_number": 185,
+                "name": "beacon",
+                "position": {
+                    "x": 841.5,
+                    "y": -42.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 186,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 844.5,
+                    "y": -42.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 187,
+                "name": "small-lamp",
+                "position": {
+                    "x": 845.5,
+                    "y": -42.5
+                }
+            },
+            {
+                "entity_number": 188,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": 846.5,
+                    "y": -43.5
+                },
+                "type": "output"
+            },
+            {
+                "entity_number": 189,
+                "name": "stack-inserter",
+                "position": {
+                    "x": 846.5,
+                    "y": -42.5
+                }
+            },
+            {
+                "entity_number": 190,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": 847.5,
+                    "y": -43.5
+                },
+                "type": "output"
+            },
+            {
+                "entity_number": 191,
+                "name": "stack-inserter",
+                "position": {
+                    "x": 847.5,
+                    "y": -42.5
+                }
+            },
+            {
+                "entity_number": 192,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": 848.5,
+                    "y": -43.5
+                },
+                "type": "output"
+            },
+            {
+                "entity_number": 193,
+                "name": "stack-inserter",
+                "position": {
+                    "x": 848.5,
+                    "y": -42.5
+                }
+            },
+            {
+                "entity_number": 194,
+                "name": "small-lamp",
+                "position": {
+                    "x": 849.5,
+                    "y": -42.5
+                }
+            },
+            {
+                "entity_number": 195,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 850.5,
+                    "y": -42.5
+                },
+                "direction": 2
+            },
+            {
+                "entity_number": 196,
+                "name": "pipe",
+                "position": {
+                    "x": 851.5,
+                    "y": -42.5
+                }
+            },
+            {
+                "entity_number": 197,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 851.5,
+                    "y": -43.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 198,
+                "name": "beacon",
+                "position": {
+                    "x": 853.5,
+                    "y": -42.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 199,
+                "name": "beacon",
+                "position": {
+                    "x": 821.5,
+                    "y": -39.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 200,
+                "name": "substation",
+                "position": {
+                    "x": 824,
+                    "y": -40
+                },
+                "neighbours": [
+                    25,
+                    209,
+                    387
+                ]
+            },
+            {
+                "entity_number": 201,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 823.5,
+                    "y": -41.5
+                }
+            },
+            {
+                "entity_number": 202,
+                "name": "chemical-plant",
+                "position": {
+                    "x": 826.5,
+                    "y": -40.5
+                },
+                "direction": 2,
+                "recipe": "light-oil-cracking",
+                "items": {
+                    "productivity-module-3": 3
+                }
+            },
+            {
+                "entity_number": 203,
+                "name": "pipe",
+                "position": {
+                    "x": 824.5,
+                    "y": -41.5
+                }
+            },
+            {
+                "entity_number": 204,
+                "name": "pipe",
+                "position": {
+                    "x": 828.5,
+                    "y": -41.5
+                }
+            },
+            {
+                "entity_number": 205,
+                "name": "pipe",
+                "position": {
+                    "x": 829.5,
+                    "y": -41.5
+                }
+            },
+            {
+                "entity_number": 206,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 828.5,
+                    "y": -40.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 207,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 829.5,
+                    "y": -40.5
+                }
+            },
+            {
+                "entity_number": 208,
+                "name": "beacon",
+                "position": {
+                    "x": 831.5,
+                    "y": -39.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 209,
+                "name": "substation",
+                "position": {
+                    "x": 834,
+                    "y": -40
+                },
+                "connections": {
+                    "1": {
+                        "red": [
+                            {
+                                "entity_id": 31
+                            },
+                            {
+                                "entity_id": 130
+                            },
+                            {
+                                "entity_id": 395
+                            }
+                        ]
+                    }
+                },
+                "neighbours": [
+                    31,
+                    200,
+                    259,
+                    395
+                ]
+            },
+            {
+                "entity_number": 210,
+                "name": "boiler",
+                "position": {
+                    "x": 836.5,
+                    "y": -41
+                }
+            },
+            {
+                "entity_number": 211,
+                "name": "pipe",
+                "position": {
+                    "x": 838.5,
+                    "y": -40.5
+                }
+            },
+            {
+                "entity_number": 212,
+                "name": "fast-inserter",
+                "position": {
+                    "x": 838.5,
+                    "y": -41.5
+                },
+                "direction": 2
+            },
+            {
+                "entity_number": 213,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": 839.5,
+                    "y": -41.5
+                },
+                "direction": 4,
+                "type": "input"
+            },
+            {
+                "entity_number": 214,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 839.5,
+                    "y": -40.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 215,
+                "name": "beacon",
+                "position": {
+                    "x": 841.5,
+                    "y": -39.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 216,
+                "name": "pipe",
+                "position": {
+                    "x": 844.5,
+                    "y": -41.5
+                }
+            },
+            {
+                "entity_number": 217,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 844.5,
+                    "y": -40.5
+                }
+            },
+            {
+                "entity_number": 218,
+                "name": "oil-refinery",
+                "position": {
+                    "x": 847.5,
+                    "y": -39.5
+                },
+                "direction": 6,
+                "recipe": "coal-liquefaction",
+                "items": {
+                    "productivity-module-3": 3
+                }
+            },
+            {
+                "entity_number": 219,
+                "name": "pipe",
+                "position": {
+                    "x": 850.5,
+                    "y": -40.5
+                }
+            },
+            {
+                "entity_number": 220,
+                "name": "pipe",
+                "position": {
+                    "x": 851.5,
+                    "y": -41.5
+                }
+            },
+            {
+                "entity_number": 221,
+                "name": "pipe",
+                "position": {
+                    "x": 851.5,
+                    "y": -40.5
+                }
+            },
+            {
+                "entity_number": 222,
+                "name": "beacon",
+                "position": {
+                    "x": 853.5,
+                    "y": -39.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 223,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 823.5,
+                    "y": -38.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 224,
+                "name": "small-lamp",
+                "position": {
+                    "x": 825.5,
+                    "y": -38.5
+                }
+            },
+            {
+                "entity_number": 225,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 828.5,
+                    "y": -38.5
+                }
+            },
+            {
+                "entity_number": 226,
+                "name": "pipe",
+                "position": {
+                    "x": 828.5,
+                    "y": -39.5
+                }
+            },
+            {
+                "entity_number": 227,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 829.5,
+                    "y": -39.5
+                },
+                "direction": 6
+            },
+            {
+                "entity_number": 228,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 829.5,
+                    "y": -38.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 229,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 834.5,
+                    "y": -38.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 230,
+                "name": "chemical-plant",
+                "position": {
+                    "x": 836.5,
+                    "y": -38.5
+                },
+                "direction": 2,
+                "recipe": "heavy-oil-cracking",
+                "items": {
+                    "productivity-module-3": 3
+                }
+            },
+            {
+                "entity_number": 231,
+                "name": "pipe",
+                "position": {
+                    "x": 838.5,
+                    "y": -39.5
+                }
+            },
+            {
+                "entity_number": 232,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 838.5,
+                    "y": -38.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 233,
+                "name": "pipe",
+                "position": {
+                    "x": 839.5,
+                    "y": -39.5
+                }
+            },
+            {
+                "entity_number": 234,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 839.5,
+                    "y": -38.5
+                }
+            },
+            {
+                "entity_number": 235,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 844.5,
+                    "y": -39.5
+                },
+                "direction": 2
+            },
+            {
+                "entity_number": 236,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 850.5,
+                    "y": -39.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 237,
+                "name": "pipe",
+                "position": {
+                    "x": 850.5,
+                    "y": -38.5
+                }
+            },
+            {
+                "entity_number": 238,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 851.5,
+                    "y": -39.5
+                }
+            },
+            {
+                "entity_number": 239,
+                "name": "beacon",
+                "position": {
+                    "x": 821.5,
+                    "y": -36.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 240,
+                "name": "pipe",
+                "position": {
+                    "x": 823.5,
+                    "y": -37.5
+                }
+            },
+            {
+                "entity_number": 241,
+                "name": "pipe",
+                "position": {
+                    "x": 824.5,
+                    "y": -36.5
+                }
+            },
+            {
+                "entity_number": 242,
+                "name": "pipe",
+                "position": {
+                    "x": 824.5,
+                    "y": -37.5
+                }
+            },
+            {
+                "entity_number": 243,
+                "name": "chemical-plant",
+                "position": {
+                    "x": 826.5,
+                    "y": -36.5
+                },
+                "direction": 2,
+                "recipe": "light-oil-cracking",
+                "items": {
+                    "productivity-module-3": 3
+                }
+            },
+            {
+                "entity_number": 244,
+                "name": "pipe",
+                "position": {
+                    "x": 828.5,
+                    "y": -37.5
+                }
+            },
+            {
+                "entity_number": 245,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 828.5,
+                    "y": -36.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 246,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 829.5,
+                    "y": -36.5
+                }
+            },
+            {
+                "entity_number": 247,
+                "name": "pipe",
+                "position": {
+                    "x": 829.5,
+                    "y": -37.5
+                }
+            },
+            {
+                "entity_number": 248,
+                "name": "beacon",
+                "position": {
+                    "x": 831.5,
+                    "y": -36.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 249,
+                "name": "pipe",
+                "position": {
+                    "x": 834.5,
+                    "y": -37.5
+                }
+            },
+            {
+                "entity_number": 250,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 834.5,
+                    "y": -36.5
+                }
+            },
+            {
+                "entity_number": 251,
+                "name": "small-lamp",
+                "position": {
+                    "x": 835.5,
+                    "y": -36.5
+                }
+            },
+            {
+                "entity_number": 252,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 837.5,
+                    "y": -36.5
+                },
+                "direction": 6
+            },
+            {
+                "entity_number": 253,
+                "name": "pipe",
+                "position": {
+                    "x": 836.5,
+                    "y": -36.5
+                }
+            },
+            {
+                "entity_number": 254,
+                "name": "pipe",
+                "position": {
+                    "x": 838.5,
+                    "y": -37.5
+                }
+            },
+            {
+                "entity_number": 255,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 838.5,
+                    "y": -36.5
+                }
+            },
+            {
+                "entity_number": 256,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 839.5,
+                    "y": -37.5
+                },
+                "direction": 6
+            },
+            {
+                "entity_number": 257,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": 839.5,
+                    "y": -36.5
+                },
+                "direction": 4,
+                "type": "output"
+            },
+            {
+                "entity_number": 258,
+                "name": "beacon",
+                "position": {
+                    "x": 841.5,
+                    "y": -36.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 259,
+                "name": "substation",
+                "position": {
+                    "x": 844,
+                    "y": -36
+                },
+                "neighbours": [
+                    108,
+                    209,
+                    401
+                ]
+            },
+            {
+                "entity_number": 260,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 844.5,
+                    "y": -37.5
+                },
+                "direction": 2
+            },
+            {
+                "entity_number": 261,
+                "name": "small-lamp",
+                "position": {
+                    "x": 845.5,
+                    "y": -36.5
+                }
+            },
+            {
+                "entity_number": 262,
+                "name": "stack-inserter",
+                "position": {
+                    "x": 846.5,
+                    "y": -36.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 263,
+                "name": "stack-inserter",
+                "position": {
+                    "x": 847.5,
+                    "y": -36.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 264,
+                "name": "small-lamp",
+                "position": {
+                    "x": 849.5,
+                    "y": -36.5
+                }
+            },
+            {
+                "entity_number": 265,
+                "name": "stack-inserter",
+                "position": {
+                    "x": 848.5,
+                    "y": -36.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 266,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 850.5,
+                    "y": -37.5
+                }
+            },
+            {
+                "entity_number": 267,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 850.5,
+                    "y": -36.5
+                },
+                "direction": 2
+            },
+            {
+                "entity_number": 268,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 851.5,
+                    "y": -37.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 269,
+                "name": "pipe",
+                "position": {
+                    "x": 851.5,
+                    "y": -36.5
+                }
+            },
+            {
+                "entity_number": 270,
+                "name": "beacon",
+                "position": {
+                    "x": 853.5,
+                    "y": -36.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 271,
+                "name": "beacon",
+                "position": {
+                    "x": 821.5,
+                    "y": -33.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 272,
+                "name": "pipe",
+                "position": {
+                    "x": 824.5,
+                    "y": -35.5
+                }
+            },
+            {
+                "entity_number": 273,
+                "name": "pipe",
+                "position": {
+                    "x": 824.5,
+                    "y": -34.5
+                }
+            },
+            {
+                "entity_number": 274,
+                "name": "small-lamp",
+                "position": {
+                    "x": 825.5,
+                    "y": -34.5
+                }
+            },
+            {
+                "entity_number": 275,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 828.5,
+                    "y": -34.5
+                }
+            },
+            {
+                "entity_number": 276,
+                "name": "pipe",
+                "position": {
+                    "x": 828.5,
+                    "y": -35.5
+                }
+            },
+            {
+                "entity_number": 277,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 829.5,
+                    "y": -34.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 278,
+                "name": "beacon",
+                "position": {
+                    "x": 831.5,
+                    "y": -33.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 279,
+                "name": "boiler",
+                "position": {
+                    "x": 836.5,
+                    "y": -35
+                }
+            },
+            {
+                "entity_number": 280,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 834.5,
+                    "y": -34.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 281,
+                "name": "pipe",
+                "position": {
+                    "x": 838.5,
+                    "y": -34.5
+                }
+            },
+            {
+                "entity_number": 282,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": 839.5,
+                    "y": -35.5
+                },
+                "direction": 4,
+                "type": "input"
+            },
+            {
+                "entity_number": 283,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 839.5,
+                    "y": -34.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 284,
+                "name": "fast-inserter",
+                "position": {
+                    "x": 838.5,
+                    "y": -35.5
+                },
+                "direction": 2
+            },
+            {
+                "entity_number": 285,
+                "name": "beacon",
+                "position": {
+                    "x": 841.5,
+                    "y": -33.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 286,
+                "name": "beacon",
+                "position": {
+                    "x": 844.5,
+                    "y": -33.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 287,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 846.5,
+                    "y": -34.5
+                }
+            },
+            {
+                "entity_number": 288,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": 846.5,
+                    "y": -35.5
+                },
+                "type": "input"
+            },
+            {
+                "entity_number": 289,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": 847.5,
+                    "y": -35.5
+                },
+                "type": "input"
+            },
+            {
+                "entity_number": 290,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 847.5,
+                    "y": -34.5
+                }
+            },
+            {
+                "entity_number": 291,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": 848.5,
+                    "y": -35.5
+                },
+                "type": "input"
+            },
+            {
+                "entity_number": 292,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 848.5,
+                    "y": -34.5
+                }
+            },
+            {
+                "entity_number": 293,
+                "name": "beacon",
+                "position": {
+                    "x": 850.5,
+                    "y": -33.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 294,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 851.5,
+                    "y": -35.5
+                }
+            },
+            {
+                "entity_number": 295,
+                "name": "beacon",
+                "position": {
+                    "x": 853.5,
+                    "y": -33.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 296,
+                "name": "pipe",
+                "position": {
+                    "x": 824.5,
+                    "y": -32.5
+                }
+            },
+            {
+                "entity_number": 297,
+                "name": "pipe",
+                "position": {
+                    "x": 824.5,
+                    "y": -33.5
+                }
+            },
+            {
+                "entity_number": 298,
+                "name": "chemical-plant",
+                "position": {
+                    "x": 826.5,
+                    "y": -32.5
+                },
+                "direction": 2,
+                "recipe": "light-oil-cracking",
+                "items": {
+                    "productivity-module-3": 3
+                }
+            },
+            {
+                "entity_number": 299,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 828.5,
+                    "y": -32.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 300,
+                "name": "pipe",
+                "position": {
+                    "x": 828.5,
+                    "y": -33.5
+                }
+            },
+            {
+                "entity_number": 301,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 829.5,
+                    "y": -32.5
+                }
+            },
+            {
+                "entity_number": 302,
+                "name": "pipe",
+                "position": {
+                    "x": 829.5,
+                    "y": -33.5
+                }
+            },
+            {
+                "entity_number": 303,
+                "name": "chemical-plant",
+                "position": {
+                    "x": 836.5,
+                    "y": -32.5
+                },
+                "direction": 2,
+                "recipe": "heavy-oil-cracking",
+                "items": {
+                    "productivity-module-3": 3
+                }
+            },
+            {
+                "entity_number": 304,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 834.5,
+                    "y": -32.5
+                }
+            },
+            {
+                "entity_number": 305,
+                "name": "pipe",
+                "position": {
+                    "x": 834.5,
+                    "y": -33.5
+                }
+            },
+            {
+                "entity_number": 306,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 838.5,
+                    "y": -32.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 307,
+                "name": "pipe",
+                "position": {
+                    "x": 838.5,
+                    "y": -33.5
+                }
+            },
+            {
+                "entity_number": 308,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 839.5,
+                    "y": -32.5
+                }
+            },
+            {
+                "entity_number": 309,
+                "name": "pipe",
+                "position": {
+                    "x": 839.5,
+                    "y": -33.5
+                }
+            },
+            {
+                "entity_number": 310,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 846.5,
+                    "y": -33.5
+                }
+            },
+            {
+                "entity_number": 311,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 846.5,
+                    "y": -32.5
+                }
+            },
+            {
+                "entity_number": 312,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 847.5,
+                    "y": -33.5
+                }
+            },
+            {
+                "entity_number": 313,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 847.5,
+                    "y": -32.5
+                }
+            },
+            {
+                "entity_number": 314,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 848.5,
+                    "y": -32.5
+                }
+            },
+            {
+                "entity_number": 315,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 848.5,
+                    "y": -33.5
+                }
+            },
+            {
+                "entity_number": 316,
+                "name": "beacon",
+                "position": {
+                    "x": 821.5,
+                    "y": -30.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 317,
+                "name": "pipe",
+                "position": {
+                    "x": 824.5,
+                    "y": -31.5
+                }
+            },
+            {
+                "entity_number": 318,
+                "name": "pipe",
+                "position": {
+                    "x": 824.5,
+                    "y": -30.5
+                }
+            },
+            {
+                "entity_number": 319,
+                "name": "small-lamp",
+                "position": {
+                    "x": 825.5,
+                    "y": -30.5
+                }
+            },
+            {
+                "entity_number": 320,
+                "name": "pipe",
+                "position": {
+                    "x": 828.5,
+                    "y": -31.5
+                }
+            },
+            {
+                "entity_number": 321,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 828.5,
+                    "y": -30.5
+                }
+            },
+            {
+                "entity_number": 322,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 829.5,
+                    "y": -30.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 323,
+                "name": "beacon",
+                "position": {
+                    "x": 831.5,
+                    "y": -30.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 324,
+                "name": "small-lamp",
+                "position": {
+                    "x": 835.5,
+                    "y": -30.5
+                }
+            },
+            {
+                "entity_number": 325,
+                "name": "pipe",
+                "position": {
+                    "x": 836.5,
+                    "y": -30.5
+                }
+            },
+            {
+                "entity_number": 326,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 837.5,
+                    "y": -30.5
+                },
+                "direction": 6
+            },
+            {
+                "entity_number": 327,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 838.5,
+                    "y": -30.5
+                }
+            },
+            {
+                "entity_number": 328,
+                "name": "pipe",
+                "position": {
+                    "x": 838.5,
+                    "y": -31.5
+                }
+            },
+            {
+                "entity_number": 329,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 839.5,
+                    "y": -31.5
+                },
+                "direction": 6
+            },
+            {
+                "entity_number": 330,
+                "name": "beacon",
+                "position": {
+                    "x": 841.5,
+                    "y": -30.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 331,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 844.5,
+                    "y": -30.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 332,
+                "name": "small-lamp",
+                "position": {
+                    "x": 845.5,
+                    "y": -30.5
+                }
+            },
+            {
+                "entity_number": 333,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": 846.5,
+                    "y": -31.5
+                },
+                "type": "output"
+            },
+            {
+                "entity_number": 334,
+                "name": "stack-inserter",
+                "position": {
+                    "x": 846.5,
+                    "y": -30.5
+                }
+            },
+            {
+                "entity_number": 335,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": 847.5,
+                    "y": -31.5
+                },
+                "type": "output"
+            },
+            {
+                "entity_number": 336,
+                "name": "stack-inserter",
+                "position": {
+                    "x": 847.5,
+                    "y": -30.5
+                }
+            },
+            {
+                "entity_number": 337,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": 848.5,
+                    "y": -31.5
+                },
+                "type": "output"
+            },
+            {
+                "entity_number": 338,
+                "name": "stack-inserter",
+                "position": {
+                    "x": 848.5,
+                    "y": -30.5
+                }
+            },
+            {
+                "entity_number": 339,
+                "name": "small-lamp",
+                "position": {
+                    "x": 849.5,
+                    "y": -30.5
+                }
+            },
+            {
+                "entity_number": 340,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 850.5,
+                    "y": -30.5
+                },
+                "direction": 2
+            },
+            {
+                "entity_number": 341,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 851.5,
+                    "y": -31.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 342,
+                "name": "pipe",
+                "position": {
+                    "x": 851.5,
+                    "y": -30.5
+                }
+            },
+            {
+                "entity_number": 343,
+                "name": "beacon",
+                "position": {
+                    "x": 853.5,
+                    "y": -30.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 344,
+                "name": "beacon",
+                "position": {
+                    "x": 821.5,
+                    "y": -27.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 345,
+                "name": "chemical-plant",
+                "position": {
+                    "x": 826.5,
+                    "y": -28.5
+                },
+                "direction": 2,
+                "recipe": "light-oil-cracking",
+                "items": {
+                    "productivity-module-3": 3
+                }
+            },
+            {
+                "entity_number": 346,
+                "name": "pipe",
+                "position": {
+                    "x": 824.5,
+                    "y": -29.5
+                }
+            },
+            {
+                "entity_number": 347,
+                "name": "pipe",
+                "position": {
+                    "x": 824.5,
+                    "y": -28.5
+                }
+            },
+            {
+                "entity_number": 348,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 829.5,
+                    "y": -28.5
+                }
+            },
+            {
+                "entity_number": 349,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 828.5,
+                    "y": -28.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 350,
+                "name": "pipe",
+                "position": {
+                    "x": 828.5,
+                    "y": -29.5
+                }
+            },
+            {
+                "entity_number": 351,
+                "name": "pipe",
+                "position": {
+                    "x": 829.5,
+                    "y": -29.5
+                }
+            },
+            {
+                "entity_number": 352,
+                "name": "beacon",
+                "position": {
+                    "x": 831.5,
+                    "y": -27.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 353,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 834.5,
+                    "y": -28.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 354,
+                "name": "boiler",
+                "position": {
+                    "x": 836.5,
+                    "y": -29
+                }
+            },
+            {
+                "entity_number": 355,
+                "name": "fast-inserter",
+                "position": {
+                    "x": 838.5,
+                    "y": -29.5
+                },
+                "direction": 2
+            },
+            {
+                "entity_number": 356,
+                "name": "pipe",
+                "position": {
+                    "x": 838.5,
+                    "y": -28.5
+                }
+            },
+            {
+                "entity_number": 357,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": 839.5,
+                    "y": -29.5
+                },
+                "direction": 4,
+                "type": "output"
+            },
+            {
+                "entity_number": 358,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 839.5,
+                    "y": -28.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 359,
+                "name": "beacon",
+                "position": {
+                    "x": 841.5,
+                    "y": -27.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 360,
+                "name": "pipe",
+                "position": {
+                    "x": 844.5,
+                    "y": -29.5
+                }
+            },
+            {
+                "entity_number": 361,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 844.5,
+                    "y": -28.5
+                }
+            },
+            {
+                "entity_number": 362,
+                "name": "oil-refinery",
+                "position": {
+                    "x": 847.5,
+                    "y": -27.5
+                },
+                "direction": 6,
+                "recipe": "coal-liquefaction",
+                "items": {
+                    "productivity-module-3": 3
+                }
+            },
+            {
+                "entity_number": 363,
+                "name": "pipe",
+                "position": {
+                    "x": 851.5,
+                    "y": -29.5
+                }
+            },
+            {
+                "entity_number": 364,
+                "name": "pipe",
+                "position": {
+                    "x": 851.5,
+                    "y": -28.5
+                }
+            },
+            {
+                "entity_number": 365,
+                "name": "pipe",
+                "position": {
+                    "x": 850.5,
+                    "y": -28.5
+                }
+            },
+            {
+                "entity_number": 366,
+                "name": "beacon",
+                "position": {
+                    "x": 853.5,
+                    "y": -27.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 367,
+                "name": "pipe",
+                "position": {
+                    "x": 823.5,
+                    "y": -26.5
+                }
+            },
+            {
+                "entity_number": 368,
+                "name": "small-lamp",
+                "position": {
+                    "x": 825.5,
+                    "y": -26.5
+                }
+            },
+            {
+                "entity_number": 369,
+                "name": "pipe",
+                "position": {
+                    "x": 824.5,
+                    "y": -27.5
+                }
+            },
+            {
+                "entity_number": 370,
+                "name": "pipe",
+                "position": {
+                    "x": 824.5,
+                    "y": -26.5
+                }
+            },
+            {
+                "entity_number": 371,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 829.5,
+                    "y": -26.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 372,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 829.5,
+                    "y": -27.5
+                },
+                "direction": 6
+            },
+            {
+                "entity_number": 373,
+                "name": "pipe",
+                "position": {
+                    "x": 828.5,
+                    "y": -27.5
+                }
+            },
+            {
+                "entity_number": 374,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 828.5,
+                    "y": -26.5
+                }
+            },
+            {
+                "entity_number": 375,
+                "name": "pipe",
+                "position": {
+                    "x": 834.5,
+                    "y": -27.5
+                }
+            },
+            {
+                "entity_number": 376,
+                "name": "chemical-plant",
+                "position": {
+                    "x": 836.5,
+                    "y": -26.5
+                },
+                "direction": 2,
+                "recipe": "heavy-oil-cracking",
+                "items": {
+                    "productivity-module-3": 3
+                }
+            },
+            {
+                "entity_number": 377,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 838.5,
+                    "y": -26.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 378,
+                "name": "pipe",
+                "position": {
+                    "x": 838.5,
+                    "y": -27.5
+                }
+            },
+            {
+                "entity_number": 379,
+                "name": "pipe",
+                "position": {
+                    "x": 839.5,
+                    "y": -27.5
+                }
+            },
+            {
+                "entity_number": 380,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 839.5,
+                    "y": -26.5
+                }
+            },
+            {
+                "entity_number": 381,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 844.5,
+                    "y": -27.5
+                },
+                "direction": 2
+            },
+            {
+                "entity_number": 382,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 851.5,
+                    "y": -27.5
+                }
+            },
+            {
+                "entity_number": 383,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 850.5,
+                    "y": -27.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 384,
+                "name": "pipe",
+                "position": {
+                    "x": 850.5,
+                    "y": -26.5
+                }
+            },
+            {
+                "entity_number": 385,
+                "name": "beacon",
+                "position": {
+                    "x": 821.5,
+                    "y": -24.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 386,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 823.5,
+                    "y": -25.5
+                }
+            },
+            {
+                "entity_number": 387,
+                "name": "substation",
+                "position": {
+                    "x": 824,
+                    "y": -24
+                },
+                "neighbours": [
+                    200,
+                    395
+                ]
+            },
+            {
+                "entity_number": 388,
+                "name": "pipe",
+                "position": {
+                    "x": 824.5,
+                    "y": -25.5
+                }
+            },
+            {
+                "entity_number": 389,
+                "name": "chemical-plant",
+                "position": {
+                    "x": 826.5,
+                    "y": -24.5
+                },
+                "direction": 2,
+                "recipe": "light-oil-cracking",
+                "items": {
+                    "productivity-module-3": 3
+                }
+            },
+            {
+                "entity_number": 390,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 828.5,
+                    "y": -24.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 391,
+                "name": "pipe",
+                "position": {
+                    "x": 828.5,
+                    "y": -25.5
+                }
+            },
+            {
+                "entity_number": 392,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 829.5,
+                    "y": -24.5
+                }
+            },
+            {
+                "entity_number": 393,
+                "name": "pipe",
+                "position": {
+                    "x": 829.5,
+                    "y": -25.5
+                }
+            },
+            {
+                "entity_number": 394,
+                "name": "beacon",
+                "position": {
+                    "x": 831.5,
+                    "y": -24.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 395,
+                "name": "substation",
+                "position": {
+                    "x": 834,
+                    "y": -24
+                },
+                "connections": {
+                    "1": {
+                        "red": [
+                            {
+                                "entity_id": 209
+                            },
+                            {
+                                "entity_id": 396
+                            },
+                            {
+                                "entity_id": 433,
+                                "circuit_id": 1
+                            }
+                        ]
+                    }
+                },
+                "neighbours": [
+                    209,
+                    387,
+                    401
+                ]
+            },
+            {
+                "entity_number": 396,
+                "name": "storage-tank",
+                "position": {
+                    "x": 836.5,
+                    "y": -23.5
+                },
+                "connections": {
+                    "1": {
+                        "red": [
+                            {
+                                "entity_id": 395
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "entity_number": 397,
+                "name": "pipe",
+                "position": {
+                    "x": 838.5,
+                    "y": -25.5
+                }
+            },
+            {
+                "entity_number": 398,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 839.5,
+                    "y": -25.5
+                },
+                "direction": 6
+            },
+            {
+                "entity_number": 399,
+                "name": "pipe",
+                "position": {
+                    "x": 838.5,
+                    "y": -24.5
+                }
+            },
+            {
+                "entity_number": 400,
+                "name": "beacon",
+                "position": {
+                    "x": 841.5,
+                    "y": -24.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 401,
+                "name": "substation",
+                "position": {
+                    "x": 844,
+                    "y": -24
+                },
+                "neighbours": [
+                    259,
+                    395,
+                    428
+                ]
+            },
+            {
+                "entity_number": 402,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 844.5,
+                    "y": -25.5
+                },
+                "direction": 2
+            },
+            {
+                "entity_number": 403,
+                "name": "small-lamp",
+                "position": {
+                    "x": 845.5,
+                    "y": -24.5
+                }
+            },
+            {
+                "entity_number": 404,
+                "name": "stack-inserter",
+                "position": {
+                    "x": 846.5,
+                    "y": -24.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 405,
+                "name": "stack-inserter",
+                "position": {
+                    "x": 847.5,
+                    "y": -24.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 406,
+                "name": "stack-inserter",
+                "position": {
+                    "x": 848.5,
+                    "y": -24.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 407,
+                "name": "small-lamp",
+                "position": {
+                    "x": 849.5,
+                    "y": -24.5
+                }
+            },
+            {
+                "entity_number": 408,
+                "name": "pump",
+                "position": {
+                    "x": 850.5,
+                    "y": -25
+                }
+            },
+            {
+                "entity_number": 409,
+                "name": "beacon",
+                "position": {
+                    "x": 853.5,
+                    "y": -24.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 410,
+                "name": "beacon",
+                "position": {
+                    "x": 821.5,
+                    "y": -21.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 411,
+                "name": "beacon",
+                "position": {
+                    "x": 825.5,
+                    "y": -21.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 412,
+                "name": "pipe",
+                "position": {
+                    "x": 828.5,
+                    "y": -23.5
+                }
+            },
+            {
+                "entity_number": 413,
+                "name": "beacon",
+                "position": {
+                    "x": 831.5,
+                    "y": -21.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 414,
+                "name": "small-lamp",
+                "position": {
+                    "x": 834.5,
+                    "y": -22.5
+                }
+            },
+            {
+                "entity_number": 415,
+                "name": "pipe",
+                "position": {
+                    "x": 838.5,
+                    "y": -22.5
+                }
+            },
+            {
+                "entity_number": 416,
+                "name": "pipe",
+                "position": {
+                    "x": 838.5,
+                    "y": -23.5
+                }
+            },
+            {
+                "entity_number": 417,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 839.5,
+                    "y": -23.5
+                },
+                "direction": 6
+            },
+            {
+                "entity_number": 418,
+                "name": "beacon",
+                "position": {
+                    "x": 841.5,
+                    "y": -21.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 419,
+                "name": "beacon",
+                "position": {
+                    "x": 844.5,
+                    "y": -21.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 420,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": 846.5,
+                    "y": -23.5
+                },
+                "type": "input"
+            },
+            {
+                "entity_number": 421,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 846.5,
+                    "y": -22.5
+                }
+            },
+            {
+                "entity_number": 422,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": 847.5,
+                    "y": -23.5
+                },
+                "type": "input"
+            },
+            {
+                "entity_number": 423,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 847.5,
+                    "y": -22.5
+                }
+            },
+            {
+                "entity_number": 424,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": 848.5,
+                    "y": -23.5
+                },
+                "type": "input"
+            },
+            {
+                "entity_number": 425,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 848.5,
+                    "y": -22.5
+                }
+            },
+            {
+                "entity_number": 426,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 849.5,
+                    "y": -23.5
+                },
+                "direction": 2
+            },
+            {
+                "entity_number": 427,
+                "name": "beacon",
+                "position": {
+                    "x": 850.5,
+                    "y": -21.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 428,
+                "name": "medium-electric-pole",
+                "position": {
+                    "x": 851.5,
+                    "y": -23.5
+                },
+                "neighbours": [
+                    401
+                ]
+            },
+            {
+                "entity_number": 429,
+                "name": "pipe",
+                "position": {
+                    "x": 850.5,
+                    "y": -23.5
+                }
+            },
+            {
+                "entity_number": 430,
+                "name": "beacon",
+                "position": {
+                    "x": 853.5,
+                    "y": -21.5
+                },
+                "items": {
+                    "speed-module-3": 2
+                }
+            },
+            {
+                "entity_number": 431,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 823.5,
+                    "y": -20.5
+                },
+                "direction": 4
+            },
+            {
+                "entity_number": 432,
+                "name": "constant-combinator",
+                "position": {
+                    "x": 823.5,
+                    "y": -21.5
+                },
+                "control_behavior": {
+                    "filters": [
+                        {
+                            "signal": {
+                                "type": "fluid",
+                                "name": "petroleum-gas"
+                            },
+                            "count": 1,
+                            "index": 1
+                        },
+                        {
+                            "signal": {
+                                "type": "virtual",
+                                "name": "signal-O"
+                            },
+                            "count": 1,
+                            "index": 2
+                        }
+                    ]
+                }
+            },
+            {
+                "entity_number": 433,
+                "name": "decider-combinator",
+                "position": {
+                    "x": 835,
+                    "y": -21.5
+                },
+                "direction": 6,
+                "control_behavior": {
+                    "decider_conditions": {
+                        "first_signal": {
+                            "type": "fluid",
+                            "name": "heavy-oil"
+                        },
+                        "constant": 1000,
+                        "comparator": "<",
+                        "output_signal": {
+                            "type": "item",
+                            "name": "heavy-oil-barrel"
+                        },
+                        "copy_count_from_input": false
+                    }
+                },
+                "connections": {
+                    "1": {
+                        "red": [
+                            {
+                                "entity_id": 395
+                            }
+                        ]
+                    },
+                    "2": {
+                        "red": [
+                            {
+                                "entity_id": 434
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "entity_number": 434,
+                "name": "logistic-chest-requester",
+                "position": {
+                    "x": 834.5,
+                    "y": -20.5
+                },
+                "control_behavior": {
+                    "circuit_mode_of_operation": 1
+                },
+                "connections": {
+                    "1": {
+                        "red": [
+                            {
+                                "entity_id": 433,
+                                "circuit_id": 2
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "entity_number": 435,
+                "name": "fast-inserter",
+                "position": {
+                    "x": 835.5,
+                    "y": -20.5
+                },
+                "direction": 6
+            },
+            {
+                "entity_number": 436,
+                "name": "pipe",
+                "position": {
+                    "x": 837.5,
+                    "y": -21.5
+                }
+            },
+            {
+                "entity_number": 437,
+                "name": "assembling-machine-3",
+                "position": {
+                    "x": 837.5,
+                    "y": -19.5
+                },
+                "recipe": "empty-heavy-oil-barrel"
+            },
+            {
+                "entity_number": 438,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 838.5,
+                    "y": -21.5
+                }
+            },
+            {
+                "entity_number": 439,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 846.5,
+                    "y": -21.5
+                }
+            },
+            {
+                "entity_number": 440,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 846.5,
+                    "y": -20.5
+                }
+            },
+            {
+                "entity_number": 441,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 847.5,
+                    "y": -21.5
+                }
+            },
+            {
+                "entity_number": 442,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 847.5,
+                    "y": -20.5
+                }
+            },
+            {
+                "entity_number": 443,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 848.5,
+                    "y": -21.5
+                }
+            },
+            {
+                "entity_number": 444,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 848.5,
+                    "y": -20.5
+                }
+            },
+            {
+                "entity_number": 445,
+                "name": "roboport",
+                "position": {
+                    "x": 832,
+                    "y": -18
+                }
+            }
+        ],
+        "item": "blueprint",
+        "label": "Tileable Coal to Petro 500/s",
+        "version": 281479274954753
+    }
+}
