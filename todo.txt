@@ -6,5 +6,3 @@ Rewrite the code to use fully custom tokeniser and use current tensorflow versio
 
 Create scraper for Dataset collection (use site Factorio Prints:https://factorioprints.com/).
 
-create more customisation and optimise model.
-
